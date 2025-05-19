@@ -1,6 +1,6 @@
 # Potion Stacks
 
-Potion Stacks is a Minecraft mod that allows players to stack up to 16 potions, making potion management easier and more convenient.
+Potion Stacks is a Minecraft mod that allows potions to stack up to 16, making potion management easier and more convenient.
 
 ## Note
 This is a slightly modified version of [StackablePotions](https://www.curseforge.com/minecraft/mc-mods/stackable-potions-neoforge), to allow it to work together with [Potion Cooldown](https://modrinth.com/mod/potion-cooldown).
