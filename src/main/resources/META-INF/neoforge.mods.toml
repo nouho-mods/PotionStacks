@@ -1,0 +1,30 @@
+modLoader="javafml"
+# The loader version doesn't matter. Modify the Forge and/or Minecraft version ranges instead.
+loaderVersion = "[0,)"
+license="MIT"
+
+[[mods]]
+modId="potionstacks"
+version="1.0.0"
+displayName="Potion Stacks"
+displayURL="https://modrinth.com/mod/potion-stacks"
+logoFile="icon.png"
+authors="nouho"
+description='''Allows potions to stack up to 16'''
+
+[[mixins]]
+config="potionstacks.mixins.json"
+
+[[dependencies.potionstacks]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.80,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.potionstacks]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="NONE"
+    side="BOTH"

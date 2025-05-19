@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.nouho.potionstacks.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BrewingStandMenuMixin",
+    "ItemsMixin",
+    "PotionItemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
